@@ -7,7 +7,7 @@ def initial():  # initial function to set the game ready for play
              'butter', 'steak', 'cream', 'pizza', 'noodle', 'potato', 'tomato', 'mango', 'almond']
     animal = ['monkey', 'elephant', 'horse', 'lizard', 'frog', 'rabbit', 'chicken', 'sheep', 'lion',
                'donkey', 'kangaroo', 'jellyfish', 'tiger', 'penguin', 'koala', 'giraffe', 'zebra']
-    global rantag
+    global rantag   # I'm not using any database here, bcz this is just a demo.
     rantag = random.randint(0, 1)
     x = random.randint(0, 17)
     if rantag == 0:
